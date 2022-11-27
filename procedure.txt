@@ -1,0 +1,28 @@
+## PSEUDOCODIGO PERSPECTIVA
+
+
+1.INSERTAR LA EXPRESION EN UNA LISTA ENLAZADA DOBLE -- TENER UNA FUNCION DE ELIMINAR EN LA LISTA DOBLE
+
+
+2.ITERAR 2 VECES LA LISTA ENLAZADA
+    2.1 - METHOD #1 -- CHECK / *  IF(/ OR *) {
+                                    element.lc = element.ant
+                                    element.rc = element.sig
+
+                                    delete(element.ant)
+                                    delete(element.sig)
+                                } )
+    2.2 - METHOD #2 -- CHECK + -  IF(+ OR -) {
+                                    element.lc = element.ant
+                                    element.rc = element.sig
+
+                                    delete(element.ant)
+                                    delete(element.sig)
+                                } )
+
+                                this.root = element // El ultimo signo se convierte en this.root
+
+3. RECORRER CON POST ORDER
+4. INSERTAR A UNA LIFO CON EL POST ORDER CHECANDO QUE (IF (isNaN(data)){ extraer dos numeros y hacer la operacion})
+
+
